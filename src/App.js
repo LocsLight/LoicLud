@@ -1,14 +1,10 @@
 import './App.css';
+import Navbar from './components/Navbar/Navbar';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Loi Lud
-        </p>
-        
-      </header>
+      <Navbar/>
     </div>
   );
 }
